@@ -51,13 +51,12 @@ on:
 
 permissions:
   contents: read
-
-jobs:
+  jobs:
     terraform:
-    name: 'Terraform'
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
+      name: 'Terraform'
+      runs-on: ubuntu-latest
+      permissions:
+        pull-requests: write
 
     steps:
     # Checkout the repository to the GitHub Actions runner
