@@ -1,5 +1,6 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "my-resource-${random_string.any_string}"
+  #name     = "my-resource-${random_string.any_string}"
+  name = "my-resource-rg"
   location = "eastus2"
   tags = {
     env = "development"
