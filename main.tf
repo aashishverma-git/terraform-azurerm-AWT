@@ -40,4 +40,4 @@ resource "azurerm_resource_group" "rg" {
 #   upper   = false
 #   special = false
 #   numeric = false
-}
+#}
